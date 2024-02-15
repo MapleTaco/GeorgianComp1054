@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+
+/*Named selector*/
+h2 {
+        color:chartreuse;
+    font-family: sans-serif;
+    font-style: oblique;
+}
+
+/*ID selector*/
+#special {
+    color:brown;
+}
+
+/*Class selector*/
+section.project {
+    background-color: bisque;
+}
+
+/*Contextual/descendent selector*/
+section p {
+    color:azure;
+}
+
+section p span {
+    color:aquamarine;
+}
+
+/*Grouped selector*/
+
+h1, h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*Pseudo-class selector*/
+a:link {
+    color:burlywood;
+}
+
+a:visited {
+    color:blueviolet;
+}
+
+a:focus {
+    background-color: chocolate;
+}
+
+a:hover {
+    background-color: crimson;
+    color:darkmagenta;
+    font-style: italic;
+}
+
+a:active {
+    background-color: pink;
+}
+
+p:hover {
+    border: 1px dotted peachpuff;
+}
+
+/* Structural pseudo-class selector*/
+li:nth-child(3n-1) {
+    font-weight: bold;
+    transform: rotate(0.25deg);
+}
+li:nth-of-type(odd) {
+    color:cadetblue;
+}
+
+section:last-of-type {
+    background-color: lightcoral;
+    
+}
+
+/*pseudo-element selector*/
+p::first-line {
+    text-transform: uppercase;
+}
+
+p::first-letter {
+    initial-letter: 3;
+}
+
+h1::before {
+    content: "NOTE - ";
+}
+
+/*Combinator Selector*/
+article > p {
+    font-style: italic;
+}
+h1 + p {
+    background-color: lavenderblush;
+}
+
+/*Attribute selector*/
+[lang="es"] {
+    font-weight: bold;
+}
+
+a[href$=".pdf"] {
+    background: red;
+}
+
+.project h2[lang="es"] + p em {
+    background: darkblue;
+}
