@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 /*  Student Name: Daniel Perusse
     Student ID: 200551990
     Student email: daniel.perusse@mygeorgian.ca
@@ -11,18 +13,22 @@
         font-size: 1.2em;
         line-height: 1.5;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgb(245, 198, 198);
     }
 
-    main {
-        display: grid
-      
-      }
-      main p:first-child {
-        margin-top: 0;
-      }
+    body {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        background-color:aliceblue;
+        margin: 0 auto 0 auto;
+    }
 
     h1 {
         font-size: 4.8rem;
+        font-family: "Bebas Neue";
+        letter-spacing: .2rem;
+        text-shadow: 0px 1px 1px #a2c0cf;
     }
     h2 {
         font-size: 3.6rem;
@@ -35,20 +41,31 @@
     }
     h5 {
         font-size: 1.8rem;
+        font-family: "Bebas Neue";
     }
     h6 {
         font-size: 1.4rem;
     }
 
+    p {
+        font-family: "Source Sans 3";
+        text-align: justify;
+        text-rendering: optimizeLegibility;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
     header {
-        background-color:deepskyblue;
-        grid-area: header;
+        background-color:rgb(173, 228, 250);
         padding: 3rem;
     }
 
     header h1 {
         margin: 0;
-   
     }
 
     header h3 {
@@ -63,10 +80,15 @@
         margin-bottom: 0;
     }
 
+    img {
+        margin-top:3.3em;
+    }
+
     aside section h5 {
         margin-bottom: 0;
     }
 
     footer {
+        background-color:rgb(173, 228, 250);
         padding: 1rem 3rem;
     }
