@@ -5,3 +5,68 @@
     Student email: daniel.perusse@mygeorgian.ca
     Date:February 15, 2024
     COMP1054 - Assignment 1 */
+
+    html {
+
+        font-size: 1.2em;
+        line-height: 1.5;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    main {
+        display: grid
+      
+      }
+      main p:first-child {
+        margin-top: 0;
+      }
+
+    h1 {
+        font-size: 4.8rem;
+    }
+    h2 {
+        font-size: 3.6rem;
+    }
+    h3 {
+        font-size: 2.4rem;
+    }
+    h4 {
+        font-size: 2.1rem;
+    }
+    h5 {
+        font-size: 1.8rem;
+    }
+    h6 {
+        font-size: 1.4rem;
+    }
+
+    header {
+        background-color:deepskyblue;
+        grid-area: header;
+        padding: 3rem;
+    }
+
+    header h1 {
+        margin: 0;
+   
+    }
+
+    header h3 {
+        margin: 0;
+    }
+
+    section {
+        padding: 0 3rem;
+    }
+
+    main > section h5 {
+        margin-bottom: 0;
+    }
+
+    aside section h5 {
+        margin-bottom: 0;
+    }
+
+    footer {
+        padding: 1rem 3rem;
+    }
