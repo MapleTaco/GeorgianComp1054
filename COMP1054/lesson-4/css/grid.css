@@ -21,7 +21,7 @@ body {
 	/* STEP 7: Plot out the grid-template-areas */
 	grid-template-areas:
 		"header header header"
-		"navigation content ads"
+		"content navigation ads"
 		"footer footer footer";
 	/* STEP 8: Control the width of the grid rows */
 	grid-template-rows: auto auto 100px;
